@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
+  <title>Odin Project Google Homepage</title>
   <meta name="description" content="Odin Project Google Homepage  ">
   <meta name="author" content="Cole">
 
@@ -19,16 +19,31 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 -->
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="stylesheet" href="google-homepage-styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-  <nav><ul><li>Home</li><li>Images</li<li>Settings</li>></ul></nav>
-  <a href="google.com"><img src="googlelogo.com"></a>
-  <input type="text" placeholder="Search Now">
-  <input type="button" name="Search">
-  <input type="button" name="Feeling Lucky?">
+  <nav>
+      <ul>
+          <li><a href="google.com">Home</a></li>
+          <li><a href="google.com">Image Search</a></li>
+          <li><a href="google.com">Settings</a></li>
+      </ul>
+    </nav>
+
+      <div class="main">
+        <div class="hero-content">
+            <a href="https://google.com"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></a><br>
+            <input class="search-bar fa-icon" type="text" name="search" placeholder="&#xf002"> 
+            <div class="search-buttons">
+                <button title="Search">Search</button>
+                <button title="Feeling Lucky?">Feeling Lucky?</button>
+            </div>
+        </div>
+      </div>
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
